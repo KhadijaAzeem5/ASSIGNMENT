@@ -1,0 +1,432 @@
+.KF{
+    width:101.6%;
+    margin: -8px;
+    margin-bottom: 0px;
+}
+
+.k1{
+    background-color:#0066b3;
+    height: 70px;
+    font-family: sans-serif;
+    
+}
+
+.link{
+    margin-top: 10px;
+    padding: 1px;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#first{
+
+    margin-top: -22px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.button1{
+    display: inline-block;
+    float:right;
+    margin-top: -55px;
+    margin-right: 200px;
+    cursor: pointer;
+    color: #8bc443;
+}
+
+.button2{
+    display: inline-block;
+    float:right;
+    margin-top: -55px;
+    margin-right: 108px;
+    cursor: pointer;
+    color: #8bc443;
+}
+
+.button3{
+    display: inline-block;
+    float:right;
+    margin-top: -50px;
+    margin-right: 179px;
+    cursor: pointer;
+    color: #8bc443;
+}
+
+.f1{
+    margin: 0%;
+    background-color:#ffffff;
+    position: sticky;
+    top: 0%;
+    height: 70px;       
+}
+
+.logo{
+    margin-left: 70px;
+}
+
+ul{
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    margin-top: -35px;   
+}
+
+li{
+    margin-top: -100px;
+    display: inline-block;
+    padding:10px;
+    font-family: sans-serif;
+}
+
+li:hover{
+    background-color:#0066b3;
+    color: #ffffff;
+    border-radius: 30px 30px;
+    cursor: pointer;
+}
+
+.dropbtn{
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropbtn1{
+    background-color: #0066b3;
+    border-radius: 300px 300px;
+    color: #ffffff;
+  }
+  
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 5px 0px  rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.k2{ 
+    background-color:#ffffff;
+    height: 420px;
+    margin-top: 1px;
+    
+}
+
+.f2{
+    
+    background-color:#0066b3;
+    height: 30px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;       
+}
+
+#para5{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.k3{
+    margin-top: 70px;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+}
+
+.f3{
+    margin-top: -10px;
+    text-align: center;
+}
+
+.k4{
+    color: gray;
+    font-size: large;  
+    padding-top: 0px;
+    height:500px;  
+}
+
+#text{
+    text-align: justify;
+    margin-left: 12%;
+    
+}
+
+.f4{
+    height: 350px;
+    margin-top: 1px;
+    background-color:#0066b3;  
+}
+
+#edit{
+    margin-top: 60px;
+    padding: 20px;
+    margin-left: 150px;  
+}
+
+#edit1{
+    margin-top: -30px;
+    padding: 20px;
+    margin-left: 130px;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#edit2{
+    margin-top: -50px;
+    padding: 20px;
+    margin-left: 100px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#edit3{
+    font-weight: bolder;
+    font-size: x-large;
+    color: #8bc443;
+    margin-top: -20px;
+    margin-left: 130px;
+}
+
+.k5{
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+.f5{
+    margin-top: -15px;
+    text-align: center;
+}
+
+.k6{
+    height: 530px;
+    margin-top: 10px;
+}
+
+.div1{
+    margin-top: 20px;
+    margin-left: 95px; 
+    height: 180px;
+    width: 250px;
+    display: inline-block;
+    box-shadow: 1px 8px 16px 1px rgba(0.5,0.5,0.5,0.5); 
+}
+
+#img1{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#p1{
+    margin-left: 45px;
+    font-size: larger;
+    color: #0066b3;
+    font-weight: 900;
+}
+
+#img2{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#p2{
+    margin-left: 75px;
+    font-size: larger;
+    color: #0066b3;
+    font-weight: 900;
+}
+
+#img3{
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+#p3{
+    margin-left: 80px;
+    font-size: larger;
+    color: #0066b3;
+    font-weight: 900;
+}
+
+.div2{
+    margin-top: 20px;
+    margin-left: 95px; 
+    height: 180px;
+    width: 250px;
+    display: inline-block;
+    box-shadow: 1px 8px 16px 1px rgba(0.5,0.5,0.5,0.5); 
+}
+
+#img4{
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+#p4{
+    margin-left: 50px;
+    font-size: larger;
+    color: #0066b3;
+    font-weight: 900;
+}
+
+#img5{
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+#p5{
+    margin-left: 80px;
+    font-size: larger;
+    color: #0066b3;
+    font-weight: 900;
+}
+
+#img6{
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+#p6{
+    margin-left: 70px;
+    font-size: larger;
+    color: #0066b3;
+    font-weight: 900;
+}
+
+.f6{
+    height: 350px;
+    margin-top: 1px;    
+}
+
+#sec1{
+    margin-left: 100px;   
+}
+
+#sec2{
+    margin-right: 160px;
+    display: inline-block;
+    float: right;
+    margin-top: -65px;
+}
+
+#sec3{
+    margin-right: 100px;
+    display: inline-block;
+    float: right;
+    margin-top: -10px;
+}
+
+#edit4{
+    margin-top: 50px;
+    margin-left: 100px;  
+}
+
+.k7{
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.f7{
+    margin-top: -15px;
+    text-align: center; 
+}
+
+.k8{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.f8{
+    background-color:#ffffff;
+    height: 200px; 
+}
+
+.k9{
+    background-color: #000;
+    height: 450px;
+}
+
+#para{
+    color: gray;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+#para1{
+    margin-left: 140px;
+    color: gray;
+}
+
+#para2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#para3{
+    text-align: right;
+    color: #ffffff;
+    margin-right: 200px;
+    margin-top: -28.5%;
+    font-weight: bolder;
+    font-size: larger;   
+}
+
+#para4{
+    text-align: right;
+    margin-top: -25px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+.f9{
+    background-color:#0066b3;
+    height: 40px;
+}
+
+#last{
+    color:#ffffff;
+    margin-left: 100px;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.k10{
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+}
+
+.f10{
+    text-decoration: none;
+    margin-left: 500px;
+}

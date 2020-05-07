@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assigment2.css">
+</head>
+
+<body>
+
+    <img id="you"
+        src="Images/Saylani-logo.png"
+        height="200">
+
+    <h1>STUDENT REGISTRATION FORM</h1>
+
+    <div>
+
+        <form action="submit.html">
+
+        <br>
+
+        <label for="fname"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIRST NAME
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="fname" name="fname" placeholder=" Enter first name" required size="20" /> (max 30
+        characters a-z and A-Z)
+        <br> <br>
+
+        <label for="lname"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAST NAME
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="lname" name="lname" placeholder=" Enter last name" required size="20" /> (max 30
+        characters a-z and A-Z)
+        <br> <br>
+
+        <label for="DOB"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATE OF BIRTH
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+        <select>
+
+            <option value="">Days</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+
+        </select>
+
+
+        <select>
+
+            <option value="">Months</option>
+            <option>jan</option>
+            <option>feb</option>
+            <option>mar</option>
+            <option>apr</option>
+            <option>may</option>
+            <option>jun</option>
+            <option>jul</option>
+            <option>aug</option>
+            <option>sep</option>
+            <option>oct</option>
+            <option>nov</option>
+            <option>dec</option>
+        </select>
+
+
+        <select>
+
+            <option value="">Years</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+
+        </select>
+
+        <br> <br>
+
+        <label for="email"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMAIL ID
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="email" name="email" placeholder=" Enter email address" required size="20" />
+        <br> <br>
+
+        <label for="mob no"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MOBILE NUMBER &nbsp;&nbsp;&nbsp;</label>
+        <input type="number" id="mob no" name="mob no" placeholder=" Enter mobile number" required size="20" /> (10
+        digit number)
+        <br> <br>
+
+        <label for="Gender"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GENDER
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        Male<input type="radio" id="Gender" name="Gender" value="male" />
+        Female<input type="radio" id="Gender" name="Gender" value="female">
+        Other <input type="radio" id="Gender" name="Gender" value="other">
+        <br> <br>
+
+        <label for="Address"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDRESS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <textarea name="Address" id="Address" cols="30" rows="4"></textarea>
+        <br> <br>
+
+        <label for="city name"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CITY NAME
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="city name" name="city name" placeholder=" Enter city name" required size="20" /> (max
+        30 characters a-z and A-Z)
+        <br> <br>
+
+        <label for="pincode"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PIN CODE
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" id="pincode" name="pincode" placeholder=" Enter pincode" required size="20" /> (6 digit
+        number)
+        <br> <br>
+
+        <label for="state"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATE
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="state" name="state" placeholder=" Enter state" required size="20" /> (max 30
+        characters a-z and A-Z)
+        <br> <br>
+
+        <label for="country"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COUNTRY
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="country" name="country" placeholder=" Enter country" required size="20" />
+        <br> <br>
+
+        <label for="hobbies"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOBBIES
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        Drawing <input type="checkbox" id="hobbies" name="hobbies" value="Drawing" />
+        Singing <input type="checkbox" id="hobbies" name="hobbies" value="Singing" />
+        Dancing <input type="checkbox" id="hobbies" name="hobbies" value="Dancing" />
+        Sketching <input type="checkbox" id="hobbies" name="hobbies" value="Sketching" />
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Others<input type="checkbox" id="hobbies" name="hobbies" value="Others" />
+        <input type="text" id="other" name="other" placeholder="other hobbies" size=18>
+        <br> <br>
+
+        <table>
+
+            <tr>
+                <td rowspan="5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUALIFICATION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td>SI.No.</td>
+                <td>Examination</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Board
+                </td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Percentage</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Year of Passing</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text"required/></td>
+                <td><input type="number"required/></td>
+                <td><input type="number"required/></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text"required/></td>
+                <td><input type="number"required/></td>
+                <td><input type="number"required/></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text"required/></td>
+                <td><input type="number"required/></td>
+                <td><input type="number"required/></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text"required/></td>
+                <td><input type="number"required/></td>
+                <td><input type="number"required/></td>
+            </tr>
+
+
+        </table>
+
+        <tfoot>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(10
+                char max)</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(upto
+                2 decimal)</td>
+        </tfoot>
+
+        <br> <br>
+
+        <label for="courses"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COURSES<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;APPLIED FOR
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        BCA <input type="radio" id="courses" name="courses" value="BCA">
+        B.Com <input type="radio" id="courses" name="courses" value="B.Com">
+        B.Sc <input type="radio" id="courses" name="courses" value="B.Sc">
+        B.A <input type="radio" id="courses" name="courses" value="B.A">
+        <br> <br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="k.html"><input type="submit" name="submit" id="submit" value="Submit"></a>
+        <input type="reset" name="reset" id="reset" value="Reset">
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+        </form>
+    </div>
+
+    <h2><a href="index.html">GO TO BACK</a></h2>
+</body>
+
+</html>
